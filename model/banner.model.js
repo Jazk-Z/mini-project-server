@@ -31,6 +31,16 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.ENUM('published', 'unpublished'),
         allowNull: false,
         comment: '是否允许照片发布到小程序中'
+      },
+      path: {
+        type: DataTypes.STRING(30),
+        allowNull: false,
+        comment: 'Banner跳转路径'
+      },
+      type: {
+        type: DataTypes.ENUM('mini', 'rn', 'web', 'flutter', 'native'),
+        allowNull: false,
+        comment: '是否允许照片发布到小程序中'
       }
     },
     {
