@@ -47,7 +47,7 @@
     "nodemon": "^1.19.3",
     "prettier": "^1.18.2",
     "rimraf": "^3.0.0",
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.1"
   },
   "dependencies": {
     "glob": "^7.1.4",
